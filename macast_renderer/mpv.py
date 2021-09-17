@@ -294,12 +294,12 @@ class MPVRenderer(Renderer):
                 '--image-display-duration=inf',
                 '--idle=yes',
                 '--no-terminal',
-                '--ontop',
+                '--no-border',
                 '--on-all-workspaces',
                 '--hwdec=yes',
                 '--save-position-on-quit=yes',
                 '--script-opts=osc-timetotal=yes,osc-layout=bottombar,' +
-                'osc-title=${title},osc-showwindowed=no,' +
+                'osc-title=${title},osc-showwindowed=yes,' +
                 'osc-seekbarstyle=bar,osc-visibility=auto'
             ]
 
